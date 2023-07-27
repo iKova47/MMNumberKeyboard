@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Matías Martínez" => "soy@matmartinez.net" }
   s.source       = { :git => "https://github.com/matmartinez/MMNumberKeyboard.git", :tag => s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '15.0'
   s.framework  = 'QuartzCore'
   s.requires_arc = true
   s.source_files = 'Classes/*.{h,m}'
